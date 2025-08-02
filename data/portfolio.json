@@ -1,0 +1,88 @@
+{
+  "hero": {
+    "name": "Nandhini",
+    "intro": "Full-Stack Developer crafting digital experiences with cutting-edge technology.",
+    "profileImage": "/WhatsApp Image 2025-07-11 at 13.09.53_56d5b703.jpg"
+  },
+  "about": {
+    "summary": [
+      "Passionate full-stack developer with 5+ years of experience building scalable web applications. I love turning complex problems into simple, beautiful solutions that users enjoy.",
+      "Currently focused on modern web technologies, AI integration, and creating seamless user experiences that make a real impact."
+    ],
+    "techStack": [
+      { "name": "MongoDB", "icon": "Database", "color": "text-green-500" },
+      { "name": "Express", "icon": "Server", "color": "text-gray-600" },
+      { "name": "React", "icon": "Code", "color": "text-blue-500" },
+      { "name": "Node.js", "icon": "Cpu", "color": "text-green-600" },
+      { "name": "MySQL", "icon": "Database", "color": "text-blue-600" },
+      { "name": "Java", "icon": "Code", "color": "text-red-500" },
+      { "name": "Python", "icon": "Code", "color": "text-yellow-500" },
+      { "name": "JavaScript", "icon": "Globe", "color": "text-yellow-400" },
+      { "name": "HTML", "icon": "Globe", "color": "text-orange-500" },
+      { "name": "CSS", "icon": "Globe", "color": "text-blue-400" },
+      { "name": "Vite", "icon": "Zap", "color": "text-purple-500" },
+      { "name": "Netlify", "icon": "Cloud", "color": "text-teal-400" },
+      { "name": "Bruno", "icon": "Code", "color": "text-orange-500" },
+      { "name": "Figma", "icon": "Palette", "color": "text-pink-500" }
+    ]
+  },
+  "projects": [
+    {
+      "id": "1",
+      "title": "City Explorer",
+      "description": "Full-stack MERN app recommending cities using OpenAI API.",
+      "tech": [
+        "React",
+        "Node.js",
+        "MongoDB",
+        "Express",
+        "OpenAI",
+        "JWT",
+        "Bruno",
+        "GitHub Actions",
+        "Render",
+        "Netlify"
+      ],
+      "status": "ongoing",
+      "github": "https://github.com/nandhinimp/city-explorer",
+      "demo": "https://demo.cityexplorer.com",
+      "details": "Built a full-stack MERN app that uses OpenAI API to recommend cities based on user input and preferences, enabling 100+ location-based queries. Designed secure login and user authentication using JWT; validated 10+ API endpoints with Bruno to ensure correct response behavior and error handling. Modeled MongoDB collections for user, city, and OpenAI feedback data; improved query performance using indexed fields. Automated deployment using GitHub Actions to Render and Netlify with .env support and API test validations. Implemented modular React components for map display, user forms, and recommendation results, improving code reuse and reducing UI development time by 30%. Upcoming features: Google Maps integration, chatbox support, and 360° image view for immersive city exploration."
+    },
+    {
+      "id": "2",
+      "title": "Paper Toss Game",
+      "description": "Browser-based game with drag-and-drop mechanics and realistic physics.",
+      "tech": ["React", "Vite"],
+      "status": "completed",
+      "github": "https://github.com/nandhinimp/papertoss",
+      "demo": "https://superb-alpaca-4c92fc.netlify.app/",
+      "details": "Developed a browser-based game using React and Vite with drag-and-drop mechanics; implemented physics and wind impact to simulate realistic gameplay dynamics."
+    },
+    {
+      "id": "3",
+      "title": "Spotify Clone",
+      "description": "Responsive clone of Spotify using HTML and CSS.",
+      "tech": ["HTML", "CSS"],
+      "status": "completed",
+      "github": "https://github.com/nandhinimp/spotify-clone",
+      "demo": "https://spotify-clone-nandhini.netlify.app/",
+      "details": "Created a responsive clone of Spotify using HTML and CSS; achieved layout consistency across 3 device breakpoints and improved visual accuracy by 95%."
+    },
+    {
+      "id": "4",
+      "title": "BloodMate – Smart Blood Donor & Emergency Aid Platform",
+      "description": "BloodMate is a smart blood donation platform that connects eligible donors with those in need through AI checks and emergency QR access.",
+      "tech": ["React", "Firebase", "MySQL", "OCR", "QR Code"],
+      "status": "ongoing",
+      "github": "https://github.com/nandhinimp/RedLink",
+      "demo": "https://github.com/nandhinimp/RedLink",
+      "details": "BloodMate is a web application that streamlines blood donor registration, eligibility verification using AI-powered OCR, and emergency access via QR codes. Built with React, Firebase Auth, and MySQL, it enables authenticated users to register as donors, manage their availability, and access donor profiles securely during emergencies."
+    }
+  ],
+  "contact": {
+    "email": "nandhini.m.0714@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/nandhini-m-b00801314/",
+    "github": "https://github.com/nandhinimp",
+    "calendly": "https://calendly.com/nandhini"
+  }
+}
