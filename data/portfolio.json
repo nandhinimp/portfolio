@@ -44,8 +44,8 @@
         "Netlify"
       ],
       "status": "ongoing",
-      "github": "https://github.com/nandhinimp/city-explorer",
-      "demo": "https://demo.cityexplorer.com",
+  "github": "https://github.com/kalviumcommunity/S76_Nandhini_Capstone_CityExplorer",
+      "demo": "https://visionary-fairy-e17309.netlify.app/",
       "details": "Built a full-stack MERN app that uses OpenAI API to recommend cities based on user input and preferences, enabling 100+ location-based queries. Designed secure login and user authentication using JWT; validated 10+ API endpoints with Bruno to ensure correct response behavior and error handling. Modeled MongoDB collections for user, city, and OpenAI feedback data; improved query performance using indexed fields. Automated deployment using GitHub Actions to Render and Netlify with .env support and API test validations. Implemented modular React components for map display, user forms, and recommendation results, improving code reuse and reducing UI development time by 30%. Upcoming features: Google Maps integration, chatbox support, and 360° image view for immersive city exploration."
     },
     {

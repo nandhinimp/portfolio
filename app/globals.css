@@ -60,8 +60,8 @@
 
 /* Dark/Light Theme Variables */
 :root {
-  --background: 0 0% 97%; /* slate-50 */
-  --foreground: 222.2 47.4% 11.2%; /* slate-900 */
+  --background: 220 100% 98%; /* light pastel blue */
+  --foreground: linear-gradient(135deg, #ff7e5f, #feb47b)
 
   --muted: 210 40% 96.1%; /* slate-200 */
   --muted-foreground: 215.4 16.3% 46.9%; /* slate-500 */
@@ -121,6 +121,7 @@
 
 @layer base {
   body {
-    @apply text-foreground; /* Apply dynamic text color */
+    @apply text-foreground;
+    background-color: hsl(var(--background)); /* Light background from CSS variable */
   }
 }
